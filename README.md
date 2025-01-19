@@ -1,7 +1,11 @@
 # odin-recipes
 
-This is my first project from The Odin Project curriculum where I showcase the following knowledge: 
+Hello World!
+
+This is my first project from The Odin Project curriculum where I showcase the topics I've learned of Basic HTML: 
 
 * HTML BoilerPlate
-* tags: h1, p, etc.
-* links
+* Text: h1-h6, p, strong, em, br
+* Lists: ol, ul, li 
+* Links: a, href, target, etc.
+* Images: img, src, alt
