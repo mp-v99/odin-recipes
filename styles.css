@@ -31,7 +31,6 @@ img {
 
 .container {
     list-style: none;
-    border: 1px solid red;
     margin: 50px;
     box-sizing: border-box;
 }
@@ -40,7 +39,6 @@ img {
     display: block;
     box-sizing: border-box;
     width: 500px;
-    padding: 20px;
     margin:  32px auto;
     text-align: center;
 }
@@ -51,5 +49,49 @@ img {
 }
 
 .container div p {
-    margin-top: 16px;
+    margin: 24px auto;
+    font-size: 21px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+
+.container_recipe {
+    list-style: none;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.container_recipe div {
+    display: block;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.container_recipe div img,
+.container_recipe button {
+    display: block;
+    border-radius: 16px;
+    margin: 8px auto;
+}
+
+.container_recipe div h3 {
+    margin: 24px auto;
+}
+
+
+
+.container_recipe div p,
+.container_recipe div ul,
+.container_recipe div ol {
+    margin: 24px auto;
+    font-size: 16px;
+}
+
+
+.container_recipe button {
+    height: 50px;
+    width: 100px;
+    font-size: 21px;
+    margin: 16px auto;
 }
