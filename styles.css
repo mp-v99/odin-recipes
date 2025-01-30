@@ -13,8 +13,9 @@ h1 {
     color: brown;
     border: 5px solid brown;
     border-radius: 10px;
+    height: auto;
     width: 350px;
-    margin: 0px auto;
+    margin: 16px auto;
     padding: 8px 24px;
     box-sizing: border-box;
 }
@@ -24,6 +25,31 @@ div {
 }
 
 img {
-    height: 400px;
+    height: 200px;
     width: auto;
+}
+
+.container {
+    list-style: none;
+    border: 1px solid red;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.container div {
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 20px;
+    margin:  32px auto;
+    text-align: center;
+}
+
+
+.container div a img {
+    border-radius: 16px;
+}
+
+.container div p {
+    margin-top: 16px;
 }
